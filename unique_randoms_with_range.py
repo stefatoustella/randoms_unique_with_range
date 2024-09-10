@@ -39,8 +39,8 @@ if how_many > ((last_number + 1) - first_number):
     )
     print("You have exceed the Max of your Last Number!!!")
     how_many = (last_number + 1) - first_number
-    result = random.sample(range(first_number, last_number + 1), how_many)
-    print(result)
+    output = random.sample(range(first_number, last_number + 1), how_many)
+    print(output)
 else:
-    result = random.sample(range(first_number, last_number + 1), how_many)
-    print(result)
+    output = random.sample(range(first_number, last_number + 1), how_many)
+    print(output)
